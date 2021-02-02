@@ -23,21 +23,6 @@ box.onmouseup = function(){
     clk = false;
 }
 
-box.ontouchstart = function(){
-    clk = true;
-}
-
-box.ontouchend = function(){
-    clk = false;
-}
-
-for(let i = 0; i < all_divs.length; i++){
-    all_divs[i].ontouchmove = function(){ 
-        if(clk) this.style.background = color_choice;
-    }
-}
-
-
 for(let i = 0; i < all_divs.length; i++){
     all_divs[i].onmouseover = function(){ 
         if(clk) this.style.background = color_choice;
