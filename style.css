@@ -17,7 +17,7 @@ body{
 .box div{
     width:2%;
     height: 2%;
-    border:1px solid silver;
+    /*border:1px solid silver;*/
     float:left;
     background-color: #fff;
 }
